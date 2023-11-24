@@ -1,0 +1,37 @@
+!<arch>
+leeEscribe.c/   0           0     0     644     515       `
+#include "leeEscribe.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+void rellenarMatriz(int ** m, int nfil, int ncol)
+{
+    for (int i = 0; i < nfil; i++)
+    {
+        for (int j = 0; j < ncol; j++)
+        {
+            printf("Introduce un número: ");
+            scanf("%d",&m[i][j]);
+        }
+    }
+}
+
+
+void mostrarMatriz(int **m, int nfil, int ncol)
+{
+    for (int i = 0; i < nfil; i++)
+    {
+        for (int j = 0; j < ncol; j++)
+        {
+            printf("m[%d][%d] = %d\n",i,j,m[i][j]);
+        }
+    }
+}
+leeEscribe.h/   0           0     0     644     151       `
+#ifndef LEEESCRIBE_H
+#define LEEESCRIBE_H
+
+void rellenarMatriz(int ** m, int nfil, int ncol);
+void mostrarMatriz(int **m, int nfil, int ncol);
+
+#endif 

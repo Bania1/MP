@@ -1,0 +1,1 @@
+void media(int a, int b, float *resultado);

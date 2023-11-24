@@ -1,0 +1,19 @@
+/** 
+	@fn 	    Prototipo de la función
+	@brief      Descripción breve de la función	
+ 	@param      parámetro 1 tipo y significado
+ 	...
+ 	@param      parámetro n tipo y significado
+	@return     tipo de resultado
+	@pre        precondición de la función
+	@post       postcondición de la función					
+	@warning    Aviso muy importante					(opcional)
+	@attention  Aviso importante						(opcional)
+	@note       Aviso							(opcional)
+	@exception  Descripción de la excepción que se puede producir		(opcional)
+	@sa         See also (véase también) otras funciones o tipos de datos	(opcional)
+	@version    Descripción de la versión o de los cambios realizados	(opcional)
+	@date       Fecha de la última modificación				(opcional)
+	@author	    Nombre de la persona que ha escrito la función		(opcional)
+	@todo       Trabajo pendiente de realizar     				(opcional)
+*/

@@ -1,0 +1,11 @@
+#Nombre del proyecto (ejercicio)
+PROJECT_NAME 	= Ejercicio de alumnos
+
+#Idioma de la documentacion (español)
+OUTPUT_LANGUAGE	= Spanish
+
+#Muestra los ficheros 
+SOURCE_BROWSER	= YES
+
+#No generar la documentación en latex
+GENERATE_LATEX	= NO

@@ -1,0 +1,7 @@
+/** Definición de la estructura NombreEstructura */
+struct NombreEstructura
+{
+	tipo 1 _atributo 1; /**< Descripción del atributo 1 */
+	...
+	tipo n _atributo n; /**< Descripción del atributo n */
+};
